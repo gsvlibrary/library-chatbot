@@ -1,0 +1,541 @@
+{
+  "intents": [
+    {
+      "tag": "central_library_aims",
+      "patterns": [
+        "What is the aim of the Central Library?",
+        "Can you explain the objectives of the Central Library?",
+        "Tell me about the Central Library's mission"
+      ],
+      "responses": [
+        "The Central Library aims to bridge the gap between teaching and learning and support the learning process of students, teachers, scholars, and stakeholders through effective services and the sharing of knowledge and information. It provides seamless access to qualitative information in all forms to the faculty, students, and staff in support of the University's teaching, learning, scholarship, and research mission. It establishes and maintains an effective relationship with the students, faculty, researchers, and staff of the Institute to ensure an informed and integrated approach to the creation and delivery of information services. It selects, collects, creates, organizes, preserves, manages, and provides access to information sources in print, non-print, and digital forms, regardless of physical location, to support scholarly pursuit, learning, teaching, and research in the University. It creates and maintains a conducive environment for study and research. It manages information resources effectively and actively promotes their optimum usage. It establishes a good rapport with users to provide effective and efficient services, and empowers users to make effective use of resources and services in their teaching, learning, and research through activities like user awareness programs, talks, workshops, exhibitions, and more.",
+        "The mission of the Central Library is to provide seamless access to qualitative information in all forms to faculty, students, and staff, supporting the University's teaching, learning, scholarship, and research mission."
+      ]
+    },
+    {
+      "tag": "library_sections",
+      "patterns": [
+        "What are the different sections of the Central Library?",
+        "Explain the sections available at CSJMU Central Library",
+        "Describe the organizational structure of the Library"
+      ],
+      "responses": [
+        "The CSJMU Central Library is organized into multiple sections to ensure smooth functioning. These include: Membership Section for managing user registrations and consultations; Circulation Section for the automated issue and return of books; Acquisition Section for procuring reading materials as per faculty recommendations; Technical Section for processing materials before they are made available to users; Reference Section for consulting important non-issuable resources like dictionaries and encyclopedias; Display of Books/Exhibitions Section for showcasing new arrivals; Theses Section maintaining awarded theses with digital copies on Shodhganga; Periodicals Section for magazines, newspapers, and e-newspapers through PressReader; and Computer Section managing servers, printers, and library IT infrastructure."
+      ]
+    },
+    {
+      "tag": "library_collection_at_a_glance",
+      "patterns": [
+        "What is the collection at CSJMU Central Library?",
+        "Tell me about the library's collection at a glance",
+        "Describe the resources available in the Central Library"
+      ],
+      "responses": [
+        "The CSJMU Central Library offers a vast collection to support academic and research endeavors. It houses over 153,000 books, including approximately 15,000 in the Reference Section. The library provides access to more than 36,000 e-books and over 57,600 e-journals. Users can explore 20+ specialized databases and access over 10,100 theses archived on the Shodhganga platform. Additionally, the library offers more than 7,200 periodicals, including newspapers and magazines, through the PressReader platform. Digital resources are accessible via the National Digital Library (NDL) and UP Higher Education Digital Library. Plagiarism detection tools such as URKUND, iThenticate, and Check for Plag are available. The library facilitates approximately 700 visitors and 600 book transactions daily. It is equipped with Wi-Fi, computer labs, reprographic facilities, air-conditioned reading halls, a well-stocked Reference Section, and a lab designed for Persons With Disabilities (PWD)."
+      ]
+    },
+    {
+      "tag": "library_pwd_lab",
+      "patterns": [
+        "What facilities are available for persons with disabilities at the Central Library?",
+        "Tell me about the PWD lab at CSJMU Central Library",
+        "Describe the services provided for differently-abled students in the library"
+      ],
+      "responses": [
+        "The CSJMU Central Library has established a dedicated Audio Visual Lab for Persons with Disabilities (PWD) to ensure inclusive access to library resources. This lab is equipped with assistive technologies that convert print and electronic text into voice and Braille, facilitating an enhanced reading, writing, and learning experience for PWD students. The mission of this initiative is to provide IT training and support to PWD students of the university and its affiliated colleges, aiding their integration into mainstream education and improving their quality of life."
+      ]
+    },
+    {
+      "tag": "library_research_support",
+      "patterns": [
+        "What research support services are available at CSJMU Central Library?",
+        "Tell me about the research support provided by the library",
+        "Describe the research assistance offered by CSJMU Central Library"
+      ],
+      "responses": [
+        "The CSJMU Central Library offers comprehensive research support services to facilitate academic and scholarly activities. These services include: \n\n1. **Bibliographic and Citation Databases**: The library provides access to databases like **Scopus**, an abstract and citation database, and **J-Gate**, an electronic gateway to global e-journal literature. The library also offers access to the **UGC-CARE List**, a curated list of quality journals. \n\n2. **Electronic Document Delivery Services (EDDS)**: This service allows access to research articles, book chapters, and standards available in the CSJMU library. If documents are not available, users can request them via email, and the library arranges access through institutional memberships like DELNET. \n\n3. **Remote Access Services**: Most of the subscribed resources can be accessed remotely via the CSJMU eLibrary app, enabling off-campus access to digital resources. \n\n4. **Electronic Thesis and Dissertation (ETD)**: The library maintains an institutional repository of electronic theses and dissertations, available through **Shodhganga**. It also keeps hard copies of theses, which are available for consultation. \n\n5. **Plagiarism Check Services**: The library subscribes to plagiarism detection tools like **Ouriginal**, **iThenticate**, and **Check for Plag**. These services help researchers check the similarity index of their theses or articles. User guides are available for each tool. \n\n6. **Research Writing Tools**: The library provides useful open-access resources for teaching and research, including journal finders such as **Elsevier Journal Finder**, **Wiley Journal Finder**, **Springer Journal Suggester**, and **Taylor & Francis Journal Suggester**. It also provides links to author profile identifiers like **ORCID**, **Vidwaan**, **Scopus Author ID**, **Google Scholar**, and **ResearchGate**."
+      ]
+    },
+    {
+      "tag": "library_indian_rare_books",
+      "patterns": [
+        "What are the Indian Rare Books available at CSJMU Central Library?",
+        "Tell me about the Indian Rare Books collection in the library",
+        "Describe the Indian Rare Books section at CSJMU Central Library"
+      ],
+      "responses": [
+        "The CSJMU Central Library houses a significant collection of Indian Rare Books, which encompass a wide range of manuscripts and antique texts that are pivotal to India's cultural and intellectual heritage. This collection includes:\n\n1. **Vedic and Religious Texts**: Access to all the Vedas, Puranas, Upavedas, Vedangas, Samhitas, Itihasas like the Ramayana and Mahabharata, and scriptures from major religions and civilizations.\n\n2. **Manuscripts**: The collection holds a diverse array of manuscripts covering numerous subjects such as:\n   - **Ayurveda**\n   - **Constitution of India**\n   - **Miniature Paintings**\n   - **Religious Texts**\n   - **Astrology**\n   - **Historical Manuscripts and Antique Books**\n   - **Indian Music and Dance**\n   - **Yantra, Mantra, Tantra**\n   - **Yoga**\n   - **Lakot (Scrolls)**\n   - **Literature**\n   - **Writing of Indian Legends**\n   - **Puranas**\n   - **Jurisprudence**\n   - **Language Arms**\n   - **Miscellaneous Topics**\n\n3. **Special Collections**: These include a number of rare and unique works such as:\n   - **Jain Manuscripts and Antique Books**\n   - **Sant Kabir Manuscripts**\n   - **Copper-Plated Rare Manuscripts**\n   - **Betula Utilis Rare Manuscripts**\n   - **Rare Paintings**\n\nThese rare and valuable resources are accessible through various digital libraries and platforms, providing scholars and enthusiasts with the opportunity to explore India's rich literary, philosophical, and cultural traditions."
+      ]
+    },
+    {
+      "tag": "library_rules_and_regulations",
+      "patterns": [
+        "What are the library rules at CSJMU Central Library?",
+        "Tell me about the library regulations at CSJMU",
+        "Describe the library guidelines at CSJMU Central Library"
+      ],
+      "responses": [
+        "The CSJMU Central Library has established comprehensive rules and regulations to ensure a conducive environment for academic study and research. These include:\n\n**Membership and Identification**:\n- All students, faculty, and employees are entitled to library membership.\n- Users must carry their Library Membership card while using the library and present it upon request. The card is non-transferable.\n- To avail library facilities, students must complete the registration formalities. The library membership form can be obtained from their respective department, approved by the concerned HOD/Director, and then submitted to the Central Library through the department. Non-teaching employees must send their membership forms attested by the concerned Assistant Registrar.\n- Loss of an Identity Card should be reported to the Institute Security and the Circulation Counter of the Library. Borrowers are responsible for any loss or issue of their original/duplicate card.\n\n**Conduct and Usage**:\n- Users must observe strict silence inside the library to avoid disturbing others.\n- Personal books or printed reading materials, except for return/re-issue purposes, are not allowed inside the library.\n- Personal belongings should be kept at the entrance of the library. No valuable items, such as laptops, mobiles, money, ATM cards, etc., should be kept inside the bags. The library will not be responsible for any such loss.\n- Bags and handbags are strictly prohibited in the library.\n- The library is not responsible for any loss or damage to personal belongings.\n- Users should not leave their reading material or personal belongings unattended on tables. If found unattended for a long time, beyond 24 hours, it may be removed by the Library Staff/Security staff during cleaning, and the library will not be responsible for the same. The items may also be disposed of using standard procedures.\n\n**Circulation Guidelines**:\n- Institute Identity Card is required for issuing and returning reading materials.\n- Materials issued from the library must be returned on or before the due date at the Circulation Desk during its working hours.\n- Users are responsible for any damage caused to books or other library property and shall be required to pay the penalty imposed by the Library Authority. Fine rules are effective for overdue books.\n- Reference books, newspapers, and magazines/journals should not be taken out of the library.\n- Any damage to library materials (marking, underlining, clipping of books) is strictly forbidden. Readers shall be held responsible for any damage and shall be required to replace the item or pay its value plus 20% and barcode/RFID tags thereof.\n- Absence from the University will not be accepted as an excuse for delayed return of books.\n- Borrowers should thoroughly check books and other reading materials for missing pages, chapters, damages, markings, etc., before borrowing.\n- Books or any other issuable items in damaged condition may not be accepted from the borrower. Mutilated or spoiled books may have to be replaced by the borrower.\n- Borrowers are responsible for any loss or non-return of books issued against their identity card.\n- Faculty and staff going on long leave must return all borrowed materials before leaving the University premises.\n- No material should be taken out of the library without proper issue/recording. Any violation may lead to disciplinary action.\n- Under special circumstances, the librarian may refuse the issue of books or recall books already issued from any member without assigning any reason.\n\n**Conduct of Library Users**:\n- The library is to be used for academic study and research and for consulting subject and related material. Everyone in the library shall respect the rights of other users.\n- Users must identify themselves upon request from any library staff member.\n- Silence must be strictly observed in the reading and reference zones of the library.\n- Smoking, consuming food or drink, and spitting in the library are strictly prohibited.\n- No one shall reserve a working place in the library by leaving library material or personal property on a reading table.\n- Every user must return books/journals to their original place after use.\n- Users shall not write upon, damage, or mark any book belonging to the library. Marking, scratching, damaging, mutilating, or stealing library materials or property will invite disciplinary action.\n- The library is not responsible for any loss of personal property brought into the library.\n- These rules are subject to revision/change from time to time without assigning any reason.\n- The librarian is free to take any decision in the interest of the library or institution.\n\n**Computer Lab Rules and Protocols**:\n- Playing games or watching movies on computers is strictly prohibited in the entire library premises.\n- Changing the settings and display of the computers kept in the library is not permitted.\n- Computers in the library premises should be used for academic purposes only.\n- Users should not remove/unplug computer cables/connections, network cables, and other peripherals/accessories in the library.\n- Users must take care of their pen drives, CD/DVD ROMs, mobiles, wallets, etc. The library is not responsible for any losses."
+      ]
+    },
+    {
+      "tag": "library_events_activities",
+      "patterns": [
+        "What events are conducted by the Central Library?",
+        "Tell me about activities organized by the Central Library",
+        "Describe the programs and events of CSJMU Library"
+      ],
+      "responses": [
+        "The CSJMU Central Library regularly organizes various events and activities to promote learning, awareness, and resource utilization among students and faculty. Major activities include Library Orientation Programs across different schools such as Engineering, Health Sciences, Agriculture, Education, Languages, Basic Sciences, Pharmaceutical Sciences, and Physical Education; Workshops on the usage of e-content and mobile library services; E-Library Awareness Programs highlighting 24x7 access to millions of resources; Celebrations like Environment Day; Exhibitions on the Bhagavad Gita; Tree Plantation drives to promote green initiatives; and Book Fairs commemorating the Partition of India and Pakistan. Media coverage of these events further showcases the Library’s active role in fostering a vibrant academic environment."
+      ]
+    },
+    {
+      "tag": "library_services",
+      "patterns": [
+        "What services are offered by the Central Library?",
+        "Describe the facilities available at CSJMU Central Library",
+        "Tell me about the library services in CSJMU"
+      ],
+      "responses": [
+        "The CSJMU Central Library offers a wide range of services including access to millions of e-resources through the E-Library, remote access to UGC-INFONET e-journals, Shodhganga, and the National Digital Library. It provides an Online Public Access Catalogue (OPAC) for searching library collections and tracking user accounts. The Circulation Section uses computerized issue/return processes with barcoding technology. QR code services enable mobile access to e-resources. Monthly e-News clipping services are available for the CSJMU community. The library has a seating capacity of over 700 students, is fully Wi-Fi enabled, and equipped with CCTV surveillance. It features an Audio-Visual Lab for physically challenged users with Braille technology, hands-free systems, and screen reading software. An automatic gate entry system ensures secure access. The Digital Library section provides internet-enabled cubicles for accessing e-resources, full-text online journals, books, and theses archives."
+      ]
+    },
+    {
+      "tag": "library_e_resources",
+      "patterns": [
+        "Tell me about the e-resources of the Central Library",
+        "What digital resources are available at CSJMU Library?",
+        "Describe the e-resources provided by the Central Library"
+      ],
+      "responses": [
+        "The CSJMU Central Library provides access to a wide range of premium e-resources via campus IP and remote login. Major resources include Scopus for abstracts and citations, PressReader for global newspapers and magazines, J-Gate for journal articles, HeinOnline for multidisciplinary law and government documents, SCC Online® for Indian and international legal research, Bhasha Prakashan for Hindi literature and technical education, Bibliotex for academic e-books across various fields, and World Technologies for curated educational material. Additionally, under the One Nation One Subscription (ONOS) initiative launched by the Government of India, users have nationwide access to nearly 13,000 high-impact scholarly journals from 30 major international publishers including Elsevier, Springer-Nature, Taylor & Francis, and Wiley. Around 1.8 crore students, faculty, and researchers across 6,400 institutions benefit from ONOS, which is implemented digitally by the INFLIBNET Centre to support the Viksit Bharat@2047 vision. For any issues accessing e-resources, users can contact the Central Library or email library@csjmu.ac.in."
+      ]
+    },
+    {
+      "tag": "central_library_summary",
+      "patterns": [
+        "Summarize the CSJMU Central Library",
+        "Tell me about the Central Library at CSJMU",
+        "Give an overview of CSJMU Central Library"
+      ],
+      "responses": [
+        "The CSJMU Central Library is a centrally located, three-storied modern facility with seating for around 700 users. It houses a vast collection of over 150,000 books, including textbooks, reference books, rare books, theses, dissertations, periodicals, and bound journals. The library also provides rich e-resources such as e-books, e-journals, open-access databases, video lectures, and research materials to support students, faculty, staff, and affiliated college scholars. Its aims include bridging the gap between teaching and learning, providing seamless access to qualitative information, fostering strong relationships with users, managing information across various formats, and promoting the effective use of resources. The library regularly conducts user awareness programs, talks, workshops, and exhibitions. It operates from 10:00 AM to 12:00 Midnight from Monday to Saturday, and remains open till 5:00 PM on second Saturdays, Sundays, and holidays. It is closed on National and Gazetted Holidays."
+      ]
+    },
+    {
+      "tag": "central_library_timings",
+      "patterns": [
+        "timing of library?",
+        "opening hours?",
+        "What are the Library’s working hours?",
+        "When is the Central Library open?",
+        "What time does the Library close?"
+      ],
+      "responses": [
+        "The Central Library is open from 10:00 AM to 12:00 Midnight from Monday to Saturday. On second Saturdays, Sundays, and holidays, the Library remains open until 5:00 PM."
+      ]
+    },
+    {
+      "tag": "central_library_holidays",
+      "patterns": [
+        "Is the Library open on holidays?",
+        "When is the Library closed?",
+        "Does the Library remain open on National Holidays?"
+      ],
+      "responses": [
+        "The Library remains closed on National Holidays, Gazetted Holidays, and other holidays declared by the University."
+      ]
+    },
+    {
+      "tag": "central_library_study_environment",
+      "patterns": [
+        "How does the Library create a conducive environment for study?",
+        "What is the study environment like in the Library?",
+        "Tell me about the Library’s study environment"
+      ],
+      "responses": [
+        "The Central Library creates a conducive environment for study and research by providing quiet spaces, study rooms, and necessary academic resources to enhance the learning experience. The Library ensures a conducive study environment by offering well-maintained study areas, resources, and a peaceful atmosphere for research and learning."
+      ]
+    },
+    {
+      "tag": "central_library_relationships",
+      "patterns": [
+        "How does the Central Library engage with students and faculty?",
+        "What is the relationship between the Library and the University community?",
+        "How does the Library collaborate with researchers and staff?"
+      ],
+      "responses": [
+        "The Central Library establishes and maintains effective relationships with students, faculty, researchers, and staff to ensure an informed and integrated approach to information services.",
+        "The Library collaborates with the University community by providing resources, offering services, and organizing activities to meet academic and research needs."
+      ]
+    },
+    {
+      "tag": "how_are_you",
+      "patterns": [
+        "What's up?",
+        "Hope you are fine",
+        "How is it going?",
+        "Are you okay?",
+        "How's everything?",
+        "How's your day?"
+      ],
+      "responses": [
+        "I'm doing great, thank you! It's always a wonderful day helping users explore the world of books and knowledge.",
+        "I'm excellent and ready to assist you! Libraries make every day brighter.",
+        "Feeling fantastic! Surrounded by books and eager learners — what could be better?",
+        "I'm here and happy to help you! What would you like to know about the Library today?",
+        "All good here! Let’s find the perfect book or resource for you."
+      ]
+    },
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello",
+        "Hi there",
+        "Hey",
+        "Good morning",
+        "Good afternoon"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! What can I help you with?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Talk to you later",
+        "Catch you later"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "See you later! Feel free to chat anytime."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Much appreciated",
+        "Thanks a lot",
+        "Thanks for your help"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "Anytime! Let me know if you have more questions."
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "Where is the library located?",
+        "Can you tell me the address of the library?",
+        "How do I get to the library?",
+        "What is the location of the Central Library?",
+        "Where can I find the library?"
+      ],
+      "responses": [
+        "The Central Library is located at the University Main Campus, near the Administrative Building."
+      ]
+    },
+    {
+      "tag": "services",
+      "patterns": [
+        "What services does the library offer?",
+        "Can you tell me about the library facilities?",
+        "What facilities are available in the library?",
+        "What can I do at the library?",
+        "Tell me about the resources available in the library"
+      ],
+      "responses": [
+        "The library offers book lending, digital resources, reading rooms, research assistance, and access to journals, e-books, and study materials."
+      ]
+    },
+    {
+      "tag": "membership",
+      "patterns": [
+        "How can I become a member of the library?",
+        "What is the process to get a library card?",
+        "How do I register for the library?",
+        "Can students join the library?",
+        "How do I apply for library membership?"
+      ],
+      "responses": [
+        "Students, faculty, and staff can register at the library help desk by filling out a membership form and providing a valid ID."
+      ]
+    },
+    {
+      "tag": "borrowing_rules",
+      "patterns": [
+        "How many books can I borrow?",
+        "What is the borrowing limit?",
+        "How long can I keep a borrowed book?",
+        "What are the library's borrowing rules?",
+        "Tell me about the lending policies"
+      ],
+      "responses": [
+        "Students can borrow up to 4 books for 30 days. Faculty members can borrow up to 6 books for 30 days."
+      ]
+    },
+    {
+      "tag": "overdue_fines",
+      "patterns": [
+        "What happens if I return a book late?",
+        "Are there fines for overdue books?",
+        "How much is the late fee?",
+        "What are the penalties for late returns?",
+        "Tell me about overdue charges"
+      ],
+      "responses": [
+        "Late returns are subject to a fine as per the library policy, for more detail please visit https://csjmu.ac.in/centrallibrary/library-rules/."
+      ]
+    },
+    {
+      "tag": "digital_library",
+      "patterns": [
+        "Does the library have online resources?",
+        "How can I access the digital library?",
+        "Are there e-books available?",
+        "Can I access journals online?",
+        "Tell me about the library's digital collection"
+      ],
+      "responses": [
+        "Yes, the library provides access to e-books, online journals, and databases. You can log in through the University's digital library portal. you can access our elibrary services using Library e-Library application and also visiting https://csjmu.refread.com/#/home."
+      ]
+    },
+    {
+      "tag": "central_library_resources_management",
+      "patterns": [
+        "tell me about library resources",
+        "How does the Library manage information resources?",
+        "What is the Library's approach to resource management?",
+        "Tell me about how the Library handles its resources"
+      ],
+      "responses": [
+        "The Central Library manages information resources effectively by selecting, collecting, organizing, preserving, and providing access to information in print, non-print, and digital formats."
+      ]
+    },
+    {
+      "tag": "Library_membership",
+      "patterns": [
+        "How to take Library membership?",
+        "how to register as library member?",
+        "Tell me what is the procedure to take library membership?"
+      ],
+      "responses": [
+        "Library membership is open to the members of the university community (i.e. teachers, officers, research scholars, students and other employees of the university). Consultation facility is also provided to the teachers and research scholars of other universities and colleges, on the production of proper identity /recommendations from concerned authorities. Under this section the membership of the library for their Bonafide users is processed. All the activities related to their library membership are addressed in this section. It is placed at the main entrance gate of the main building. Please click here for rules and regulations of the library. http://172.22.124.11/webopac/MemberRequest.aspx This link is accessible in University campus only. For more detail visit https://csjmu.ac.in/centrallibrary/online-library-membership."
+      ]
+    },
+    {
+      "tag": "library_downloads",
+      "patterns": [
+        "What downloads are available at CSJMU Central Library?",
+        "What forms are available for download at CSJMU Library?",
+        "List the downloadable forms available in the CSJMU Central Library.",
+        "Which forms can I download from the CSJMU Central Library website?",
+        "Where can I access downloadable resources of the Central Library?",
+        "Tell me about the library downloads at CSJMU.",
+        "Can you describe the downloadable forms provided by CSJMU Library?",
+        "What are the different downloadable options available at the Central Library?",
+        "Where can I download important library documents at CSJMU?",
+        "Where can I find the Library Membership form for students?",
+        "How can students get the Library Membership Form at CSJMU?",
+        "Is the Library Membership Form for students available online at CSJMU?",
+        "Where do I download the student membership form for the library?",
+        "How to apply for student library membership at CSJMU?",
+        "Where can faculty and staff get the Library Membership form?",
+        "Is there a Library Membership Form for faculty members?",
+        "How can CSJMU staff and faculty download the library membership form?",
+        "Where to find membership forms for faculty and staff in the library?",
+        "How to apply for library membership for teachers and staff at CSJMU?",
+        "How can I suggest a book to the CSJMU Library?",
+        "What is the procedure to recommend a book to the Central Library?",
+        "Where can I submit a book recommendation form at CSJMU?",
+        "How do I recommend new books for the library at CSJMU?",
+        "Is there a form to suggest books for the CSJMU Library?",
+        "Where can I download the Book Recommendation Form?",
+        "How to access the Book Recommendation Form at CSJMU Library?",
+        "Where can I find the book suggestion form for CSJMU Library?",
+        "Is the Book Recommendation Form available for download?",
+        "How can I download the library's Book Recommendation Form?",
+        "What is the process for submitting a Plagiarism Notice at CSJMU?",
+        "How to submit a Plagiarism Notice in the library?",
+        "What are the steps to file a Plagiarism Notice at CSJMU Central Library?",
+        "Where can I get the form to report plagiarism at CSJMU?",
+        "Is there a plagiarism complaint form available at CSJMU Library?",
+        "Where can I find the Plagiarism Report Form for the library?",
+        "How to download the Plagiarism Report Form from CSJMU Library?",
+        "Where can I submit a Plagiarism Report at CSJMU?",
+        "How do I access the Plagiarism Report submission form?",
+        "Where to find the Plagiarism Reporting form for the Central Library?",
+        "How to request photocopy or Xerox services in CSJMU Library?",
+        "What is the procedure for getting photocopies in the library?",
+        "How can I apply for Xerox services in the CSJMU Central Library?",
+        "Where to submit the Photocopy/Xerox request form in the library?",
+        "How do I request Xeroxing facilities at CSJMU Library?",
+        "Where can I get the Photocopy/Xerox Indent form in the library?",
+        "Where can I download the Photocopy Request form at CSJMU Library?",
+        "How to access the library Xerox Indent Form at CSJMU?",
+        "Is there a form available to request photocopies in the Central Library?",
+        "Where can I find and download the Xerox Indent form?"
+      ],
+      "responses": [
+        "The CSJMU Central Library offers several important downloadable forms and documents for users, including:\n\n- **Library Membership Form for Students**: Required for students to enroll and access library services.\n- **Library Membership Form for Faculty Members, Staff, and Others**: For faculty, non-teaching staff, and other authorized members.\n- **Book Recommendation Form**: Allows users to suggest books for library purchase.\n- **Plagiarism Notice**: Important information regarding plagiarism policies at CSJMU.\n- **Plagiarism Report Form**: For submitting reports related to plagiarism checks.\n- **Photocopy/Xerox Indent Form**: To request photocopying or Xerox services within the library.\n\nAll these documents are available for download through the official Central Library website. For more details, please visit: https://csjmu.ac.in/centrallibrary/downloads/"
+      ]
+    },
+    {
+      "tag": "library_gallery",
+      "patterns": [
+        "What is available in the CSJMU Library Gallery?",
+        "Tell me about the photo gallery of the Central Library.",
+        "Where can I see pictures of CSJMU Central Library activities?",
+        "Does CSJMU Library have a gallery of events and activities?",
+        "Show me the library's photo collection at CSJMU.",
+        "Where can I find images of library events at CSJMU?",
+        "How to access the Central Library's gallery at CSJMU?",
+        "Can I view pictures of library workshops and events?",
+        "Is there a photo gallery for CSJMU Library?",
+        "Where can I browse the CSJMU Library photo gallery?"
+      ],
+      "responses": [
+        "The CSJMU Central Library maintains a dedicated online gallery showcasing various events, workshops, exhibitions, training programs, and significant activities organized by the library. Users can explore images reflecting the vibrant academic and cultural engagements supported by the Central Library. For more details and to view the gallery, please visit: https://csjmu.ac.in/centrallibrary/gallery/"
+      ]
+    },
+    {
+      "tag": "library_visual_overview",
+      "patterns": [
+        "What is the visual overview of the CSJMU Central Library?",
+        "Tell me about the visual overview of the library at CSJMU.",
+        "Where can I see the visual highlights of the Central Library?",
+        "Does CSJMU Library offer a visual presentation of its services?",
+        "Show me the visual introduction to the Central Library.",
+        "Where can I find the library's visual overview?",
+        "Can I view a visual tour of CSJMU Central Library?",
+        "How to access the visual highlights of CSJMU Library?",
+        "Is there a visual walkthrough available for CSJMU Central Library?",
+        "Where can I explore the library's visual features at CSJMU?"
+      ],
+      "responses": [
+        "The CSJMU Central Library provides a comprehensive visual overview that highlights its infrastructure, services, resources, and various facilities available for students, faculty, and researchers. Through this visual tour, users can better understand the library's environment, including study spaces, digital resources, specialized sections, and major initiatives undertaken to enhance learning and research support. For more details and to view the visual overview, please visit: https://csjmu.ac.in/centrallibrary/visual-overview-of-library/"
+      ]
+    },
+    {
+      "tag": "shri_ganesh_shankar_vidyarthi",
+      "patterns": [
+        "Who was Ganesh Shankar Vidyarthi?",
+        "Tell me about Shri Ganesh Shankar Vidyarthi.",
+        "What is the significance of Ganesh Shankar Vidyarthi in Indian history?",
+        "Where can I find information about Ganesh Shankar Vidyarthi in CSJMU Library?",
+        "What are the contributions of Ganesh Shankar Vidyarthi?",
+        "Is there any literature available on Ganesh Shankar Vidyarthi in the library?",
+        "Can I access research on Ganesh Shankar Vidyarthi at CSJMU?",
+        "What resources are available on Ganesh Shankar Vidyarthi in the Central Library?",
+        "Where can I read about Ganesh Shankar Vidyarthi's life and work?",
+        "Is there a dedicated section for Ganesh Shankar Vidyarthi in the library?"
+      ],
+      "responses": [
+        "Ganesh Shankar Vidyarthi was a prominent Indian journalist, freedom fighter, and leader of the Indian National Congress. Born on 26 October 1890 in Allahabad, Uttar Pradesh, he began his career as a clerk and teacher before venturing into journalism and politics. In 1913, he founded the Hindi weekly newspaper 'Pratap,' which became a voice for the oppressed peasants, workers, and people of Indian states. He also translated Victor Hugo’s novel 'Ninety-Three' into Hindi. Vidyarthi actively participated in various movements of the Indian independence struggle, including the Home Rule Movement, the Non-Cooperation Movement, and the Civil Disobedience Movement. He was arrested multiple times and faced numerous prosecutions for his writings and activities. In 1930, he was elected as the president of the Provincial Congress Committee of Uttar Pradesh. Tragically, he died on 25 March 1931 in Kanpur after being injured in a communal riot. He is remembered as a fearless and dedicated journalist and patriot who sacrificed his life for the nation. For more details, please visit: https://csjmu.ac.in/centrallibrary/shri-ganesh-shankar-vidyarthi/"
+      ]
+    },
+    {
+      "tag": "irins_csjmu",
+      "patterns": [
+        "What is IRINS?",
+        "Tell me about IRINS at CSJMU.",
+        "How can I access IRINS at CSJMU?",
+        "What services does IRINS provide?",
+        "Is IRINS available for CSJMU researchers?",
+        "How to use IRINS for research at CSJMU?",
+        "Where can I find the IRINS portal for CSJMU?",
+        "What is the purpose of IRINS at CSJMU?",
+        "How does IRINS help CSJMU researchers?",
+        "Can I create a scholarly profile on IRINS at CSJMU?",
+        "What is the Indian Research Information Network System?",
+        "Tell me about the Indian Research Information Network System at CSJMU.",
+        "How can CSJMU researchers use the Indian Research Information Network System?",
+        "What are the benefits of the Indian Research Information Network System for CSJMU?",
+        "How does the Indian Research Information Network System work at CSJMU?"
+      ],
+      "responses": [
+        "The Indian Research Information Network System (IRINS) is a web-based Research Information Management (RIM) service developed by the Information and Library Network (INFLIBNET) Centre, an inter-university center of the University Grants Commission (UGC), Gandhinagar, Gujarat. IRINS helps academic and research organizations collect, curate, and showcase their scholarly activities, facilitating the creation of a scholarly network. At CSJMU, the Central Library has implemented and enabled IRINS to showcase scholarly communication activities and provide an opportunity to create a scholarly network. For more details and to access the IRINS portal, please visit: https://csjmu.ac.in/centrallibrary/irins/"
+      ]
+    },
+    {
+      "tag": "indian_rare_books",
+      "patterns": [
+        "What are Indian rare books?",
+        "Tell me about Indian rare books at CSJMU.",
+        "Where can I access Indian rare books at CSJMU?",
+        "What is the Indian rare books collection at CSJMU?",
+        "How can I explore Indian rare books at CSJMU?",
+        "Where can I find Indian rare books online?",
+        "What types of Indian rare books are available at CSJMU?",
+        "Can I access Indian rare books digitally at CSJMU?",
+        "What is the significance of Indian rare books at CSJMU?",
+        "How to access Indian rare books at CSJMU?"
+      ],
+      "responses": [
+        "The CSJMU Central Library houses a significant collection of Indian rare books, encompassing a wide range of subjects including Ayurveda, astrology, history, literature, and religious texts. These rare books are preserved to maintain the rich cultural and academic heritage of India. For more details and to explore the collection, please visit: https://csjmu.ac.in/centrallibrary/indian-rare-books/"
+      ]
+    },
+    {
+      "tag": "e_news_clipping_services",
+      "patterns": [
+        "What are the e-News clipping services offered by CSJMU Central Library?",
+        "Tell me about the e-News clipping services at CSJMU.",
+        "How can I access the e-News clipping services at CSJMU?",
+        "What newspapers are included in the e-News clipping services at CSJMU?",
+        "Where can I find the e-News clipping services for CSJMU?",
+        "Can I access e-News clipping services remotely at CSJMU?",
+        "What is the e-News clipping service provided by CSJMU Central Library?",
+        "How to use the e-News clipping services at CSJMU?",
+        "Is there an e-News clipping service available for CSJMU community?",
+        "What is the process to access e-News clipping services at CSJMU?"
+      ],
+      "responses": [
+        "The CSJMU Central Library offers monthly e-News clipping services to users in the public domain related to the CSJMU community. These services are highly utilized by the community and academia and are accessible through the e-library application. You can access the following services:\n\n- **E-News Clipping Service (For e-library users)**: [Click here to open](https://csjmu.ac.in/centrallibrary/e-news-papers-clipping-services/)\n- **E-News Paper Clipping Services (For non e-library users)**: [Click here to open](https://csjmu.ac.in/centrallibrary/e-news-papers-clipping-services/)\n\nFor more details and to access the e-News clipping services, please visit: [https://csjmu.ac.in/centrallibrary/e-news-papers-clipping-services/](https://csjmu.ac.in/centrallibrary/e-news-papers-clipping-services/)"
+      ]
+    },
+    {
+      "tag": "csjmu_library_staff",
+      "patterns": [
+        "Who are the staff members of CSJMU Central Library?",
+        "Tell me about the staff of CSJMU Central Library.",
+        "Who is the University Librarian at CSJMU?",
+        "Who is the Deputy Librarian at CSJMU?",
+        "Who is the Assistant Librarian at CSJMU?",
+        "What are the qualifications of the Central Library staff at CSJMU?",
+        "How many staff members are there in CSJMU Central Library?",
+        "What are the roles of the staff in CSJMU Central Library?",
+        "Can you provide a list of staff members in CSJMU Central Library?",
+        "Who is responsible for cataloging at CSJMU Central Library?"
+      ],
+      "responses": [
+        "The CSJMU Central Library is managed by a dedicated team of professionals. The key staff members include: Prof. (Dr.) Ashish Srivastava – University Librarian- Dr. Shweta Pandey – Deputy Librarian- Dr. Ravi Shukla – Assistant Librarian, Additionally, the library staff comprises: Shishir Yadav – Cataloguer (M.Lib, M.Phil., NET), Surdeep Chandan – Cataloguer (M.Lib. & I.Sc., M.Phil.) Avidesh Kanoujia – Senior Assistant, B.P. Shukla – Book Attendant (High School), For more details, please visit: [https://csjmu.ac.in/centrallibrary/staff/](https://csjmu.ac.in/centrallibrary/staff/)"
+      ]
+    },
+    {
+      "tag": "Collection_at_a_Glance",
+      "patterns": [
+        "How does the Library organize its collection at a glance?",
+        "What is the Library’s quick overview of its resources?",
+        "Tell me about the Library’s snapshot of its holdings.",
+        "How does the Library present a brief summary of its resources?",
+        "What is the Library's approach to showcasing its collection highlights?",
+        "Can you describe the Library’s collection overview?",
+        "How does the Library offer a quick look at its resources?",
+        "What is included in the Library’s at-a-glance collection details?",
+        "How does the Library summarize its information resources?",
+        "Tell me about the Library’s method for giving a resource snapshot."
+      ],
+      "responses": [
+        "https://csjmu.ac.in/centrallibrary/library-at-a-glance/"
+      ]
+    }
+  ]
+}

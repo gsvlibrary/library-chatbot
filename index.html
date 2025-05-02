@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GSV Central Library Chatbot</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            background: linear-gradient(135deg, #f0f8ff, #e6f2ff);
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #004080;
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        .welcome-banner {
+            background: linear-gradient(90deg, #ff6600, #ffcc00, #33cc33, #00cccc, #3366ff);
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 1.2em;
+            animation: glow 2s infinite alternate;
+        }
+        @keyframes glow {
+            from {
+                text-shadow: 0 0 5px white;
+            }
+            to {
+                text-shadow: 0 0 20px #ffcc00;
+            }
+        }
+        .chat-container {
+            max-width: 800px;
+            margin: 20px auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            padding: 20px;
+        }
+        .messages {
+            max-height: 400px;
+            overflow-y: auto;
+            margin-bottom: 20px;
+        }
+        .message {
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 10px;
+            line-height: 1.5;
+        }
+        .user {
+            background-color: #cce5ff;
+            text-align: right;
+        }
+        .bot {
+            background-color: #e2f0d9;
+            text-align: left;
+        }
+        form {
+            display: flex;
+        }
+        input[type="text"] {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 20px;
+            font-size: 1em;
+        }
+        button {
+            padding: 10px 20px;
+            margin-left: 10px;
+            background-color: #004080;
+            color: white;
+            border: none;
+            border-radius: 20px;
+            font-size: 1em;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #003366;
+        }
+
+        @media (max-width: 600px) {
+            .chat-container {
+                margin: 10px;
+                padding: 15px;
+            }
+            button {
+                padding: 10px;
+                font-size: 0.9em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Library Assistant Chatbot</h1>
+    </header>
+
+    <div class="welcome-banner">
+        Welcome to GSV, Central Library, CSJM University Kanpur
+    </div>
+
+    <div class="chat-container">
+        <div class="messages" id="chatbox">
+            <div class="message bot">👋 Hello! How can I help you today?</div>
+        </div>
+
+        <form id="chat-form">
+            <input type="text" id="user-input" placeholder="Type your question..." required />
+            <button type="submit">Send</button>
+        </form>
+    </div>
+
+    <script>
+        const form = document.getElementById('chat-form');
+        const input = document.getElementById('user-input');
+        const chatbox = document.getElementById('chatbox');
+
+        form.addEventListener('submit', async function(e) {
+            e.preventDefault();
+            const userText = input.value.trim();
+            if (!userText) return;
+
+            addMessage(userText, 'user');
+            input.value = '';
+
+            const response = await fetch('http://172.22.124.100:8000/chat', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'  // Send request as JSON
+                },
+                body: JSON.stringify({
+                    message: userText  // Send the user's message
+                })
+            });
+
+            const data = await response.json();
+
+            // Check if the response is successful and add the message from 'data'
+            if (data.success) {
+                addMessage(data.data, 'bot');  // The bot's message is in 'data' field
+            } else {
+                addMessage("Sorry, I couldn't process your request. Please try again.", 'bot');
+            }
+        });
+
+        function addMessage(text, sender) {
+            const msg = document.createElement('div');
+            msg.className = 'message ' + sender;
+            msg.textContent = text;
+            chatbox.appendChild(msg);
+            chatbox.scrollTop = chatbox.scrollHeight;
+        }
+    </script>
+</body>
+</html>
